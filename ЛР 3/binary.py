@@ -14,4 +14,5 @@ def gen_bin_tree(height: int, root: int) -> dict:
 # import pprint
 # pprint.pprint(tree)
 
-print(gen_bin_tree(5, 3))
+print(gen_bin_tree(4, 7))
+
