@@ -31,7 +31,7 @@ def gen_bin_tree(
     if height < 0:
         return {}
     
-    # Базовый случай: высота 0 → только корень, без детей
+    # Базовый случай: высота 0 -> только корень, без детей
     if height == 0:
         return {str(root): {}}
     
@@ -47,3 +47,5 @@ def gen_bin_tree(
             "right leaf": gen_bin_tree(height - 1, right_child, left_func, right_func)
         }
     }
+
+    print(gen_bin_tree(4, 7))
