@@ -48,4 +48,5 @@ def gen_bin_tree(
         }
     }
 
-    print(gen_bin_tree(4, 7))
+print(gen_bin_tree(4, 7))
+
